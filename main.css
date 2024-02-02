@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+.container {
+    max-width: 1024px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+header  {
+    background-color: black;
+    padding: 17px 0 0;
+    margin-bottom: 1px;
+    padding-bottom: 16px;
+    border-radius: 1%;
+    color: #fff;
+    padding-left: 0%;
+    
+
+}
+h1 {
+    margin-left: 10%;
+}
+header .container a {
+    color:#f8f8f8;
+    display: inline;
+    text-decoration: none;
+    
+}
+nav {
+    color: #fff;
+    padding: 0;
+    display:  flex;
+}
+nav li {
+    margin-left: 70%;
+    display: grid;
+    
+}    
+button {
+    display: block;
+    width: 80%;
+    padding: 8px 0;
+    border: none;
+    background-color: #121312;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 5%;
+}
+
+section img {
+    max-width: 400px;
+    max-height: 400px;
+    padding-right: 2px;
+    
+}
+.produto img {
+    max-width: 260px;
+    padding: 5%;
+}
+.sobreloja {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.sobre-loja p {
+    margin: 5%;  
+    
+}
+section h2, hr {
+    margin: 5%;
+}
+.produto {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: end;
+    margin-bottom: 20%;
+}
+.produto p {
+    font-size: small;
+    padding-left: 5%;
+}
+strong  {
+    padding-left: 5%;
+
+}
+.produto h3 {   
+    margin-left: 5%;
+    font-size: bold;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+.footer li img {
+    height: 2em;
+}
+.footer, footer li  {
+    justify-content: space-around;
+    display: flex;
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 640px) {
+    
+    h1 {
+    margin-left: 5%;
+    display: inline;
+    }
+    nav {
+        color: #fff;
+        display: flex;
+    }
+    nav li {
+        margin-left: 70%;
+        
+    }  
+    .container {
+        max-width: 90%;
+    }
+    .sobreloja {
+        margin-top: 5%;
+        display: block;
+        font-size: 1.5em;
+    }
+    .sobreloja .produto img {
+        margin-right: 0%;} 
+        .produtos {
+            display: block;
+        }
+        .produtos .produto  {
+            margin-bottom: 32px ;
+            margin-top: 2%;
+            display: block;
+        }
+        section img {
+            max-width: 260px;
+            max-height: 280px;
+    } }
+@media screen and (min-width: 641px) and (max-width: 1023px)  {
+    .conteudo {
+        display: block;
+        
+    }h1 {
+        margin-left: 5%;
+        display: inline;
+    }
+    header .container a {
+        color:#f8f8f8;
+        display: inline;
+        text-decoration: none;
+        
+    }
+    .container {
+        max-width: 80%;
+    }
+    .sobreloja {
+        display: block;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .sobreloja .produto a {
+        display: block;
+        font-size: 1.5em;
+    }
+    .sobreloja .produto img {
+        
+        margin-top: 10%;
+    }   
+        
+    .produtos {
+        margin: 2%;
+    }header div.container {
+        flex-direction: column;
+    }
+    .produtos .produto  {
+        display: grid;
+        margin-bottom: 5% ;
+        margin-top: 2%;
+        margin-left: 20%;
+        grid-template-columns: repeat(3, 34.8%); 
+        align-items: end;
+        width: 100%;
+    }
+    .produtos .produto li img  {
+        width: 250px;
+        height: 250px;
+    }
+    header div.container {
+        flex-direction: row;
+        
+    }
+    section img {
+        max-width: 600px;
+        max-height: 600px;
+        margin: 10%;
+}
+    }
